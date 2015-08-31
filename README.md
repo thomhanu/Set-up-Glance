@@ -6,15 +6,15 @@ Trước khi cài đặt và cấu hình dịch vụ Image, chúng ta cần tạ
 
   a. Sử dụng cơ sở dữ liệu truy cập người dùng kết nối với cơ sở dữ liệu máy chủ:
 
-    ```sh
+ ```sh
     $ mysql -u root -p
-    ```
+```
     
   b. Tạo cơ sở dữ liệu glance:
     
-    ```sh
+```sh
     CREATE DATABASE glance;
-    ```
+```
     
   c. Cấp quyền truy cập thích hợp cho cơ sở dữ liệu glance:
     
